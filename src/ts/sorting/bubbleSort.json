@@ -1,0 +1,26 @@
+{
+  "source": [
+    {
+      "name": "Pérez-Schofield, José Baltasar García, and Rosalia Laza Fidalgo. Metodología de la programación. Edición: 1. Madrid: PRENTICE HALL, 2008. pp. 105-108",
+      "link": "http://jbgarcia.webs.uvigo.es/libros/mtp/"
+    },
+    {
+      "name": "Groner, Loiane. Learning JavaScript Data Structures and Algorithms. Packt Publishing, 2014. pp. 174-178",
+      "link": "https://www.packtpub.com/application-development/learning-javascript-data-structures-and-algorithms"
+    }
+  ],
+  "complexity": [
+    {
+      "name": "Best cases",
+      "complexity": "O(n)"
+    },
+    {
+      "name": "Average cases",
+      "complexity": "O(n²)"
+    },
+    {
+      "name": "Worst cases",
+      "complexity": "O(n²)"
+    }
+  ]
+}
