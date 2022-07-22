@@ -1,19 +1,18 @@
 {
-  "description": "The method goes through all the elements of an array one by one until the searched value is found.
-  Traditionally, a for loop is used, which means that at each return, in addition to seeing if the current value matches the one sought, 
-  two other operations must be carried out:
-  - knowing if i is within the limits of the array
-  - and assigning the appropriate value to i to keep iterating.
-  With the idea of reducing these two operations, Cormen proposes the current implementation.
-  1º Replace the last element of the array with the value sought, and keep the value that the last element had.
-  2º Go through the array whenever we do not find the value sought (here we save the i and the verification of its limits),
-  3º Reassign the value it had to the last element of the array.
-  4th Confirm if it was found:
-  If i is less than the length of the array, return i
-  If the last value is equal to the one sought, return i
-  That brand is called sentinel.
-  This function is the optimization recommended by Thomas H. Cormen."
-  ,
+  "description": [
+    "The method goes through all the elements of an array one by one until the searched value is found.",
+    "Traditionally, a for loop is used, which means that at each return, in addition to seeing if the current value matches the one sought,",
+    "two other operations must be carried out:",
+    "- knowing if i is within the limits of the array",
+    "- and assigning the appropriate value to i to keep iterating.",
+    "With the idea of reducing these two operations, Cormen proposes the current implementation.",
+    "1º Replace the last element of the array with the value sought, and keep the value that the last element had.",
+    "2º Go through the array whenever we do not find the value sought (here we save the i and the verification of its limits),",
+    "3º Reassign the value it had to the last element of the array.",
+    "4th Confirm if it was found: If i is less than the length of the array, return i If the last value is equal to the one sought, return i",
+    "That brand is called sentinel.",
+    "This function is the optimization recommended by Thomas H. Cormen."
+  ],
   "source": [
     {
       "name": "Cormen, Thomas H. Algorithms Unlocked. Cambridge, Massachusetts: MIT Press, 2013, pp 16, 20-21",

@@ -17,7 +17,8 @@
  * This function received an array and return a new array in ascending order
  * using Insert Sort Algorithm
  *
- ** Algorithm: Insert Sort ** Complexity: O(n²)
+ ** Algorithm: Insert Sort
+ ** Complexity: O(n²)
  * @param {number[]} data - The array to be sorted
  * @returns {number[]} a new sorted array
  */
