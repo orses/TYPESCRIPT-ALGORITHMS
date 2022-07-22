@@ -1,0 +1,26 @@
+{
+  "source": [
+    {
+      "name": "Cormen, Thomas H. Algorithms Unlocked. Cambridge, Massachusetts: MIT Press, 2013, pp 28-32",
+      "link": "https://mitpress.mit.edu/books/algorithms-unlocked"
+    },
+    {
+      "name": "García Pérez-Schofield, José Baltasar, and Rosalia Laza Fidalgo. Metodología de la programación. Edición: 1. Madrid: PRENTICE HALL, 2008. pp. 83-84",
+      "link": "http://jbgarcia.webs.uvigo.es/libros/mtp/"
+    }
+  ],
+  "complexity": [
+    {
+      "name": "Best cases",
+      "complexity": "Θ(1)"
+    },
+    {
+      "name": "Average cases",
+      "complexity": "Θ(log n)"
+    },
+    {
+      "name": "Worst cases",
+      "complexity": "Θ(log n)"
+    }
+  ]
+}
