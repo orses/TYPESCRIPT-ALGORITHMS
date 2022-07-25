@@ -4,6 +4,6 @@
  */
 
 export default function createLinearTable(): number[] {
-  const numbers: number[] = [90, 70, 50, 80, 60, 85];
+  const numbers = [90, 70, 50, 80, 60, 85];
   return numbers;
 }

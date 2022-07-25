@@ -13,6 +13,13 @@
     "That brand is called sentinel.",
     "This function is the optimization recommended by Thomas H. Cormen."
   ],
+  "characteristics": {
+    "difficulty": "Beginner",
+    "paradigm": "Brute Force",
+    "ordered": false,
+    "recursive": true,
+    "topic": "searching"
+  },
   "source": [
     {
       "name": "Cormen, Thomas H. Algorithms Unlocked. Cambridge, Massachusetts: MIT Press, 2013, pp 16, 20-21",
