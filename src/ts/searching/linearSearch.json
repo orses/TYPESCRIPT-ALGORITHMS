@@ -15,9 +15,9 @@
   ],
   "characteristics": {
     "difficulty": "Beginner",
-    "paradigm": "Brute Force",
+    "paradigm": ["Brute Force"],
     "ordered": false,
-    "recursive": true,
+    "recursive": false,
     "topic": "searching"
   },
   "source": [

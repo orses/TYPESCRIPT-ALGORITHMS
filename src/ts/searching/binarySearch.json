@@ -9,6 +9,13 @@
       "link": "http://jbgarcia.webs.uvigo.es/libros/mtp/"
     }
   ],
+  "characteristics": {
+    "difficulty": "Beginner",
+    "paradigm": ["Divide and Conquer"],
+    "ordered": true,
+    "recursive": false,
+    "topic": "searching"
+  },
   "complexity": [
     {
       "name": "Best cases",

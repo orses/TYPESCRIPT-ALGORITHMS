@@ -9,6 +9,13 @@
       "link": "https://www.packtpub.com/application-development/learning-javascript-data-structures-and-algorithms"
     }
   ],
+  "characteristics": {
+    "difficulty": "Beginner",
+    "paradigm": [],
+    "ordered": false,
+    "recursive": false,
+    "topic": "sorting"
+  },
   "complexity": [
     {
       "name": "Best cases",
