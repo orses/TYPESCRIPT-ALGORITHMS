@@ -18,6 +18,7 @@
     }
   ],
   "characteristics": {
+    "dataPlace": ["not in-place"],
     "difficulty": "Beginner",
     "disadvantages": [
       "The constant factor is higher than Insert and Select.",
