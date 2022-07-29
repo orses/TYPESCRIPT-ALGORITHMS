@@ -1,0 +1,32 @@
+{
+  "source": [
+    {
+      "name": "Hu, Yang. Algorithms JavaScript: Explains Algorithms with Beautiful Pictures, 2020.",
+      "link": "https://www.amazon.es/dp/B08D863KFY/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
+    }
+  ],
+  "characteristics": {
+    "additionalMemory": "no",
+    "dataPlace": "in-place",
+    "difficulty": "Beginner",
+    "ordered": false,
+    "paradigm": [],
+    "recursive": false,
+    "topic": "sorting",
+    "type": "comparison sort"
+  },
+  "complexity": [
+    {
+      "name": "Best cases",
+      "complexity": "O(n)"
+    },
+    {
+      "name": "Average cases",
+      "complexity": "O(n²)"
+    },
+    {
+      "name": "Worst cases",
+      "complexity": "O(n²)"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import minOfLinearTable from './minOfLinearTable';
 
-xdescribe('Basic Test', () => {
+describe('Basic Test', () => {
   test('Should work for small array', () => {
-    const expected = minOfLinearTable([60, 80, 95, 50, 70]);
-    const result = 50;
+    const received = minOfLinearTable([60, 80, 95, 50, 70]);
+    const expected = 50;
 
-    expect(expected).toBe(result);
+    expect(received).toBe(expected);
   });
 });

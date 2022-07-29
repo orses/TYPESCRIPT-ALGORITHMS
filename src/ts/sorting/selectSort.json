@@ -14,7 +14,8 @@
     "paradigm": [],
     "ordered": false,
     "recursive": false,
-    "topic": "sorting"
+    "topic": "sorting",
+    "type": "comparison sort"
   },
   "complexity": [
     {

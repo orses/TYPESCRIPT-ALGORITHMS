@@ -1,10 +1,24 @@
 import bubbleSort from './bubbleSort';
 
-xdescribe('Basic test', () => {
-  test('Shoul work for an basic and little array of numbers', () => {
-    const expected = bubbleSort([60, 50, 95, 80, 70]);
-    const result = [50, 60, 70, 80, 95];
+describe('Basic test', () => {
+  test('Should work for an basic and little array of numbers', () => {
+    const received = bubbleSort([60, 50, 95, 80, 70]);
+    const expected = [50, 60, 70, 80, 95];
 
-    expect(expected).toEqual(result);
+    expect(received).toEqual(expected);
+  });
+
+  test('Should work for an ordered array', () => {
+    const received = bubbleSort([50, 60, 70, 80, 95]);
+    const expected = [50, 60, 70, 80, 95];
+
+    expect(received).toEqual(expected);
+  });
+
+  test('Should work for an ordered array in reverse order', () => {
+    const received = bubbleSort([95, 80, 70, 60, 50]);
+    const expected = [50, 60, 70, 80, 95];
+
+    expect(received).toEqual(expected);
   });
 });

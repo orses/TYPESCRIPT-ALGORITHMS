@@ -1,10 +1,10 @@
 import createLinearTable from './createLinearTable';
 
-xdescribe('Basic test', () => {
+describe('Basic test', () => {
   test('Should return the input number', () => {
-    const expected = createLinearTable();
-    const result: number[] = [90, 70, 50, 80, 60, 85];
+    const received = createLinearTable();
+    const expected: number[] = [90, 70, 50, 80, 60, 85];
 
-    expect(expected).toEqual(result);
+    expect(received).toEqual(expected);
   });
 });
